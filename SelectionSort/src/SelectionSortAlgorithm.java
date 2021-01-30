@@ -11,7 +11,7 @@ public class SelectionSortAlgorithm {
             arr[i] = rd.nextInt(100);// storing random integers in an array
         }
 
-        int[] array = { 3, 1, 2 };
+        // int[] array = { 3, 1, 2 };
 
         arr = selectionSort(arr);
         System.out.println(Arrays.toString(arr));
