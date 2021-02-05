@@ -11,7 +11,7 @@ public class InsertionSortAlgorithm {
             arr[i] = rd.nextInt(100);// storing random integers in an array
         }
 
-        int[] array = { 3, 1, 2 };
+        // int[] array = { 3, 1, 2 };
 
         arr = insertionSort(arr);
         System.out.println(Arrays.toString(arr));
